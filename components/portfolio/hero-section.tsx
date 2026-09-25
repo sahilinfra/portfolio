@@ -1,13 +1,7 @@
 import { Button } from "@/components/ui/button"
-import { MapPin } from "lucide-react"
-
 export function HeroSection() {
   return (
     <section id="top" className="mx-auto max-w-4xl px-6 pb-14 pt-16 sm:pb-16 sm:pt-28">
-      <p className="mb-4 inline-flex items-center gap-1.5 rounded-full border border-border bg-primary/5 px-3 py-1 text-xs font-medium text-primary">
-        <MapPin className="size-3.5" aria-hidden="true" />
-        Chandigarh
-      </p>
       <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">Sahil Billowria</h1>
       <p className="mt-3 text-lg font-medium text-primary sm:text-xl">
         DevOps and Cloud Engineer | AWS | Azure | AI Technical Evaluation

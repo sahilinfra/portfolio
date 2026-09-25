@@ -16,10 +16,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto max-w-4xl px-6">
-        <div className="flex items-center justify-between py-4">
-          <a href="#top" className="text-sm font-semibold tracking-tight text-foreground">
-            Sahil Billowria
-          </a>
+        <div className="flex items-center justify-end py-4">
           <nav aria-label="Primary" className="hidden gap-6 sm:flex">
             {NAV_LINKS.map((link) => (
               <a
