@@ -1,8 +1,7 @@
-import { Mail, Phone, MapPin, Link2 } from "lucide-react"
+import { Mail, MapPin, Link2 } from "lucide-react"
 
 const CONTACT_ITEMS = [
   { icon: Mail, label: "sahilbillowria1@gmail.com", href: "mailto:sahilbillowria1@gmail.com" },
-  { icon: Phone, label: "+91 7889542489", href: "tel:+917889542489" },
   { icon: MapPin, label: "Chandigarh", href: undefined },
   {
     icon: Link2,
