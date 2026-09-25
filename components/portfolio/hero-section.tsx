@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 export function HeroSection() {
   return (
-    <section id="top" className="mx-auto max-w-4xl px-6 pb-14 pt-16 sm:pb-16 sm:pt-28">
+    <section id="top" className="mx-auto max-w-4xl px-6 pb-14 pt-8 sm:pb-16 sm:pt-16">
       <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">Sahil Billowria</h1>
       <p className="mt-3 text-lg font-medium text-primary sm:text-xl">
         DevOps and Cloud Engineer | AWS | Azure | AI Technical Evaluation
