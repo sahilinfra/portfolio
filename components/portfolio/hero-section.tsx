@@ -8,7 +8,7 @@ export function HeroSection() {
         <MapPin className="size-3.5" aria-hidden="true" />
         Chandigarh
       </p>
-      <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">Sahil Billowris</h1>
+      <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">Sahil Billowria</h1>
       <p className="mt-3 text-lg font-medium text-primary sm:text-xl">
         DevOps and Cloud Engineer | AWS | Azure | AI Technical Evaluation
       </p>

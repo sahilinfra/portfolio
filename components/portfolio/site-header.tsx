@@ -13,7 +13,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
         <a href="#top" className="text-sm font-semibold tracking-tight text-foreground">
-          Sahil Billowris
+          Sahil Billowria
         </a>
         <nav aria-label="Primary" className="hidden gap-6 sm:flex">
           {NAV_LINKS.map((link) => (

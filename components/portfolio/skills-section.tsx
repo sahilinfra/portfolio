@@ -1,4 +1,11 @@
-const SKILLS = ["AWS", "Azure", "AI Technical Evaluation", "DevOps", "Cloud Engineering"]
+const SKILLS = [
+  "Python", "Bash / Shell", "PowerShell", "SQL", "JavaScript / TypeScript", "REST APIs", "React", "Next.js", ".NET", "PHP",
+  "AWS", "Azure", "EC2", "ECS / Fargate", "EKS", "ECR", "VPC", "IAM", "RDS", "S3", "Lambda", "CloudWatch",
+  "Azure DevOps", "Azure Pipelines", "VNets", "IoT Hub", "Event Hubs", "Key Vault", "Entra ID", "Azure Monitor", "Databricks", "Functions",
+  "Terraform", "Bicep", "Ansible", "GitHub Actions", "GitLab CI/CD", "Jenkins", "Docker", "Docker Compose", "Kubernetes", "Helm", "Trivy",
+  "Linux / Ubuntu", "Windows Server", "IIS", "Nginx", "PostgreSQL", "SQL Server", "MongoDB", "Prometheus", "Grafana", "KQL",
+  "TCP/IP", "DNS", "VPN", "Fortinet 40F", "IAM / RBAC", "MFA", "SSL/TLS", "SOC 2", "Drata", "AI Technical Evaluation"
+]
 
 export function SkillsSection() {
   return (
