@@ -56,7 +56,7 @@ export function SkillsSection() {
                 className="size-7 object-contain"
               />
             </span>
-            <span className="text-xs font-medium leading-4 text-foreground sm:text-sm">{skill.name}</span>
+            <span className="min-w-0 break-words text-xs font-medium leading-4 text-foreground sm:text-sm">{skill.name}</span>
           </li>
         ))}
       </ul>

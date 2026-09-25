@@ -15,7 +15,7 @@ export function ProjectsSection() {
       <h2 className="text-sm font-semibold uppercase tracking-wider text-primary">Projects</h2>
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
         {PROJECTS.map((project) => (
-          <article key={project.title} className="rounded-lg border border-border bg-card/30 p-5 transition-colors hover:border-primary/50">
+          <article key={project.title} className="min-w-0 rounded-lg border border-border bg-card/30 p-4 transition-colors hover:border-primary/50 sm:p-5">
             <h3 className="font-semibold text-foreground">{project.title}</h3>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{project.description}</p>
           </article>

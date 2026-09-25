@@ -24,7 +24,7 @@ export function ContactSection() {
         {CONTACT_ITEMS.map((item) => {
           const Icon = item.icon
           const content = (
-            <span className="flex items-center gap-3 text-sm font-medium text-foreground">
+            <span className="flex min-w-0 items-start gap-3 text-sm font-medium text-foreground">
               <Icon className="size-4 text-primary" aria-hidden="true" />
               {item.label}
             </span>
