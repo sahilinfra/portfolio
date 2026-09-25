@@ -15,9 +15,9 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur">
-      <div className="mx-auto max-w-4xl px-6">
+      <div className="w-full px-6">
         <div className="flex items-center justify-end py-4">
-          <nav aria-label="Primary" className="ml-auto hidden justify-end gap-6 sm:flex">
+          <nav aria-label="Primary" className="hidden justify-end gap-6 sm:flex">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
